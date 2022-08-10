@@ -1,0 +1,255 @@
+* {
+outline: none;
+}
+
+body{
+    background: url(../img/back7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body .contant{
+    height: 100%;
+    left: 0 ;
+    right: 0 ;
+    top: 0 ; 
+    bottom: 0 ;
+    position: absolute; 
+    
+}
+.first{
+    background: url(../img/back6.jpg) no-repeat;
+    height: 726px;
+    background-size: cover;
+    margin-top: 100px;
+    border-top-left-radius: 68px;
+    border-bottom-left-radius: 68px;
+    margin-right: 10px;
+    position: relative
+}
+.first h3{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 3.5px;
+    padding-top: 65px;
+    text-align: center;
+}   
+.first p{
+    font-family: 'Josefin Slab', serif;
+    color: #fff;
+    padding-top: 14px;
+    text-align: center;
+}
+.first .over{
+    position: absolute; 
+    left: 0 ; 
+    right: 0 ;
+    top: 0; 
+    bottom: 0 ; 
+    width: 100% ;
+    height: 100% ;
+    background-color: rgba(0,0,0,.07);
+    border-top-left-radius: 68px;
+    border-bottom-left-radius: 68px;
+}
+.sign_up{
+    text-align: center;
+    display: block;
+    color: #fff;
+    border: 1.4px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 21px;
+}
+.button{
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.second{
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    height: 726px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.row {
+    margin-bottom: 20px;
+}
+.row input{
+    margin-bottom: 10px 
+}
+.birthday select{
+    width: 79px;
+    border-radius: 6px;
+    height: 25px;
+    margin-left: 4px;
+    background-color: #fff;    
+}
+.male_female{
+    margin-top: 23px;
+    font-size: 16px;
+    padding-bottom: 51px;
+
+}
+.birthday{
+    margin-top: 36px;
+    margin-bottom: -17px;
+    text-align: center;
+}
+.Birthday_h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: #3d7375;
+    padding-bottom: 3px;
+    padding-top: 0px;
+}
+.male_female{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.male_female label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.male_female:last-child  input{
+        margin-left: 14px;
+}
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+/*start second half*/
+.second h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #3d7375;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.row input {
+    margin-bottom: 18px;
+}
+.second .icon{
+    margin-left: 0px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.second .icon2{
+    margin-left: 0px;
+    padding-top: 9px;
+    cursor: pointer;
+}
+.text_p{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 34px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #777;
+}
+/*end second half*/
+
+
+/*start second pasge*/
+.second_page{
+    height: 349px;
+    background-color: rgba(0,0,0,.4);
+    margin-top: 19%;
+    border-bottom-right-radius: 53px;
+    width: 70%;
+    margin-left: 15%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.name_sec{
+    margin-top: 66px;
+    width: 50%!important;
+    margin-left: 25%;
+    border-radius: 10px!important;
+    margin-bottom: 12px;  
+}
+.pass_sec{
+    width: 50%!important;
+    margin-left: 25%;
+    border-radius: 10px!important;
+}
+.second_p{
+    padding-top: 38px;
+    margin-bottom: -26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: #529e52;
+    text-transform: capitalize;
+}
+.second_button{
+    width: 50%;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    background-color: #4ab74a;
+    color: #fff;
+    border-bottom-right-radius: 46px;
+    display: block;
+    margin-left: 25%;
+}
+.second_button:hover{
+    transition: all 1s ; 
+    background-color: #4ab74b
+}
+.keep1{
+        float: left;
+    color: #fff;
+    width: 20%;
+    margin-left: 30%;
+        margin-top: 23px;
+}
+.keep1 span,.keep2 span
+{
+    font-size: 15px;
+    padding-left: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1.3px;
+}
+.keep2{
+    color: #fff;
+    float: right;
+    width: 20%;
+    margin-right: 30%;
+        margin-top: 23px;
+}
+/*end second pasge*/
